@@ -69,3 +69,6 @@ body {
 .form--marketing>input {
   margin-right: 10px;
 }
+.form--submit:hover{
+  background: rgb(101, 101, 254);
+}

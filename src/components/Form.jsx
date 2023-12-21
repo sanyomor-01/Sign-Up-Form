@@ -25,14 +25,14 @@ export default function Form() {
     function handleSubmit(event) {
         event.preventDefault()
         if(formData.password === formData.passwordConfirm) {
-            console.log("Successfully signed up")
+            alert("Successfully signed up")
         } else {
-            console.log("Passwords do not match")
+            alert("Passwords do not match")
             return
         }
         
         if(formData.joinedNewsletter) {
-            alert("Thanks for signing up for our newsletter!")
+            alert ("Thanks for signing up for our newsletter!")
         }
     }
 
